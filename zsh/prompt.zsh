@@ -9,7 +9,7 @@ plugins=(
 )
 
 export MYVIMRC="$HOME/.config/nvim/init.vim"
-
+export EDITOR="/usr/bin/nvim"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
