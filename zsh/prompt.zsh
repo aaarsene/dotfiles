@@ -8,5 +8,8 @@ plugins=(
   git
 )
 
+export MYVIMRC="$HOME/.config/nvim/init.vim"
+
+
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

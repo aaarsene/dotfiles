@@ -9,6 +9,9 @@
     ~/.zsh:         zsh
     ~/.zshrc:       zshrc
     ~/.zprofile:    zprofile
+    ~/.config/nvim/init.vim:
+        create: true
+        path: neovim/init.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
