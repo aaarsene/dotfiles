@@ -7,6 +7,7 @@ endif
 call plug#begin()
 
 Plug 'arcticicestudio/nord-vim'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
@@ -18,6 +19,8 @@ set expandtab
 set nowrap
 syntax enable
 set background=dark
+
+map <C-n> :NERDTreeToggle<CR>
 
 colorscheme nord
 
