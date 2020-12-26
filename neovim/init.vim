@@ -6,7 +6,8 @@ endif
 
 call plug#begin()
 
-Plug 'arcticicestudio/nord-vim'
+"Plug 'arcticicestudio/nord-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'scrooloose/nerdtree'
 
 call plug#end()
@@ -22,9 +23,10 @@ set background=dark
 
 map <C-n> :NERDTreeToggle<CR>
 
-colorscheme nord
+"colorscheme nord
+colorscheme dracula
 
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-let g:nord_uniform_status_lines = 1
-let g:nord_uniform_diff_backgrounf = 1
+"let g:nord_italic = 1
+"let g:nord_italic_comments = 1
+"let g:nord_uniform_status_lines = 1
+"let g:nord_uniform_diff_backgrounf = 1
