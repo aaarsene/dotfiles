@@ -1,0 +1,5 @@
+- apt:
+  - zsh
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+  - neovim
