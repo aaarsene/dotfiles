@@ -13,3 +13,6 @@
 [submodule "dotbot-apt"]
 	path = dotbot-apt
 	url = https://github.com/bryant1410/dotbot-apt
+[submodule "gnome-terminal"]
+	path = gnome-terminal
+	url = https://github.com/dracula/gnome-terminal

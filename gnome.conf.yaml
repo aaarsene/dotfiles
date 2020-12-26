@@ -1,0 +1,7 @@
+- shell:
+  - 
+    command: cd gnome-terminal && ./install.sh
+    stdin: true
+    stdout: true
+    description: Install dracula theme for gnome terminal
+    
